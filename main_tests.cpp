@@ -5,8 +5,6 @@
 * Kenneth Nimmo Knimmo1@dmacc.edu
 * 10/2/2025
 *
-* comment/uncomment test cases as needed
-*
 * midterm group project
 */
 

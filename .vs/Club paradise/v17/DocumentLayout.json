@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:main_tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\dealer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:dealer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -58,7 +58,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "table.h",
               "DocumentMoniker": "E:\\CIS 164\\Club paradise\\table.h",
               "RelativeDocumentMoniker": "table.h",
@@ -66,12 +66,11 @@
               "RelativeToolTip": "table.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-15T21:47:54.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T21:47:54.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "player.h",
               "DocumentMoniker": "E:\\CIS 164\\Club paradise\\player.h",
               "RelativeDocumentMoniker": "player.h",
@@ -79,12 +78,11 @@
               "RelativeToolTip": "player.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-15T21:47:50.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T21:47:50.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "deck.h",
               "DocumentMoniker": "E:\\CIS 164\\Club paradise\\deck.h",
               "RelativeDocumentMoniker": "deck.h",
@@ -92,12 +90,11 @@
               "RelativeToolTip": "deck.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-15T21:47:49.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T21:47:49.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "dealer.h",
               "DocumentMoniker": "E:\\CIS 164\\Club paradise\\dealer.h",
               "RelativeDocumentMoniker": "dealer.h",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "dealer.h",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-15T21:47:37.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T21:47:37.806Z"
             },
             {
               "$type": "Document",
@@ -118,8 +114,7 @@
               "RelativeToolTip": "table.cpp",
               "ViewState": "AgIAAHAAAAAAAAAAAAAUwJ0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-15T21:28:42.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T21:28:42.816Z"
             },
             {
               "$type": "Document",
@@ -131,8 +126,7 @@
               "RelativeToolTip": "person.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-15T21:28:41.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T21:28:41.371Z"
             },
             {
               "$type": "Document",
@@ -144,8 +138,7 @@
               "RelativeToolTip": "deck.cpp",
               "ViewState": "AgIAAAUAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-15T21:28:39.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T21:28:39.504Z"
             },
             {
               "$type": "Document",
@@ -157,18 +150,17 @@
               "RelativeToolTip": "player.cpp",
               "ViewState": "AgIAAAIAAAAAAAAAAAAUwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-15T20:52:14.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T20:52:14.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "dealer.cpp",
               "DocumentMoniker": "E:\\CIS 164\\Club paradise\\dealer.cpp",
               "RelativeDocumentMoniker": "dealer.cpp",
               "ToolTip": "E:\\CIS 164\\Club paradise\\dealer.cpp",
               "RelativeToolTip": "dealer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-15T20:25:15.806Z",
               "EditorCaption": ""
@@ -181,7 +173,7 @@
               "RelativeDocumentMoniker": "Game_Driver.cpp",
               "ToolTip": "E:\\CIS 164\\Club paradise\\Game_Driver.cpp",
               "RelativeToolTip": "Game_Driver.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-15T20:33:41.053Z",
               "EditorCaption": ""
@@ -194,7 +186,7 @@
               "RelativeDocumentMoniker": "main_tests.cpp",
               "ToolTip": "E:\\CIS 164\\Club paradise\\main_tests.cpp",
               "RelativeToolTip": "main_tests.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAMBAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-02T21:10:57.877Z",
               "EditorCaption": ""

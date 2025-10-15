@@ -125,8 +125,8 @@
   <ItemGroup>
     <ClCompile Include="dealer.cpp" />
     <ClCompile Include="deck.cpp" />
-    <None Include="Game_Driver.cpp" />
-    <ClCompile Include="main_tests.cpp" />
+    <ClCompile Include="Game_Driver.cpp" />
+    <None Include="main_tests.cpp" />
     <ClCompile Include="person.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="table.cpp" />

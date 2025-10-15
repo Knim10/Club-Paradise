@@ -30,7 +30,7 @@
     <ClCompile Include="dealer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main_tests.cpp">
+    <ClCompile Include="Game_Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -52,7 +52,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Game_Driver.cpp">
+    <None Include="main_tests.cpp">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
