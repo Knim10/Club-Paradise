@@ -13,8 +13,8 @@ protected:
 public:
     virtual ~Person() {}
     void cardDealt(int card);
-    int handValue();
-    void showHand();
+    int handValue() const; 
+    void showHand() const;
     void clearHand();
 };
 

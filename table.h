@@ -6,6 +6,7 @@
 #include "deck.h"
 #include "player.h"
 #include "person.h"
+#include "dealer.h"
 
 using namespace std;
 
@@ -58,7 +59,7 @@ public:
 private:
     Deck& deck;
     vector<Player*> players;
-    Person dealer;  // Simple dealer; no bankroll tracked
+    Dealer dealer;  // Simple dealer; no bankroll tracked
 
     // internal helpers
     void dealOneToDealer();

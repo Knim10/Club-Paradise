@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "E:\\CIS 164\\Club paradise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\Game_Driver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:Game_Driver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\main_tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:main_tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\dealer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:dealer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:table.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\dealer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:dealer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:table.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -37,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|E:\\CIS 164\\Club paradise\\deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2FEC13F1-721E-4A0E-8131-1F05F7DE399A}|Club paradise.vcxproj|solutionrelative:deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,139 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "dealer.cpp",
-              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\dealer.cpp",
-              "RelativeDocumentMoniker": "dealer.cpp",
-              "ToolTip": "E:\\CIS 164\\Club paradise\\dealer.cpp",
-              "RelativeToolTip": "dealer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-02T21:24:52.89Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dealer.h",
-              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\dealer.h",
-              "RelativeDocumentMoniker": "dealer.h",
-              "ToolTip": "E:\\CIS 164\\Club paradise\\dealer.h",
-              "RelativeToolTip": "dealer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-02T21:24:45.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "table.h",
               "DocumentMoniker": "E:\\CIS 164\\Club paradise\\table.h",
               "RelativeDocumentMoniker": "table.h",
               "ToolTip": "E:\\CIS 164\\Club paradise\\table.h",
               "RelativeToolTip": "table.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-02T21:19:40.124Z"
+              "WhenOpened": "2025-10-15T21:47:54.802Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "table.cpp",
-              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\table.cpp",
-              "RelativeDocumentMoniker": "table.cpp",
-              "ToolTip": "E:\\CIS 164\\Club paradise\\table.cpp",
-              "RelativeToolTip": "table.cpp",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGUAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-02T21:19:32.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "person.h",
-              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\person.h",
-              "RelativeDocumentMoniker": "person.h",
-              "ToolTip": "E:\\CIS 164\\Club paradise\\person.h",
-              "RelativeToolTip": "person.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-02T21:13:39.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "E:\\CIS 164\\Club paradise\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-02T21:10:57.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "deck.h",
-              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\deck.h",
-              "RelativeDocumentMoniker": "deck.h",
-              "ToolTip": "E:\\CIS 164\\Club paradise\\deck.h",
-              "RelativeToolTip": "deck.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-02T21:10:44.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "deck.cpp",
-              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\deck.cpp",
-              "RelativeDocumentMoniker": "deck.cpp",
-              "ToolTip": "E:\\CIS 164\\Club paradise\\deck.cpp",
-              "RelativeToolTip": "deck.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-02T21:10:33.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "person.cpp",
-              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\person.cpp",
-              "RelativeDocumentMoniker": "person.cpp",
-              "ToolTip": "E:\\CIS 164\\Club paradise\\person.cpp",
-              "RelativeToolTip": "person.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-02T21:10:22.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "player.h",
               "DocumentMoniker": "E:\\CIS 164\\Club paradise\\player.h",
               "RelativeDocumentMoniker": "player.h",
               "ToolTip": "E:\\CIS 164\\Club paradise\\player.h",
               "RelativeToolTip": "player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-02T21:09:52.498Z"
+              "WhenOpened": "2025-10-15T21:47:50.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "deck.h",
+              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\deck.h",
+              "RelativeDocumentMoniker": "deck.h",
+              "ToolTip": "E:\\CIS 164\\Club paradise\\deck.h",
+              "RelativeToolTip": "deck.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-15T21:47:49.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dealer.h",
+              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\dealer.h",
+              "RelativeDocumentMoniker": "dealer.h",
+              "ToolTip": "E:\\CIS 164\\Club paradise\\dealer.h",
+              "RelativeToolTip": "dealer.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-15T21:47:37.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "table.cpp",
+              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\table.cpp",
+              "RelativeDocumentMoniker": "table.cpp",
+              "ToolTip": "E:\\CIS 164\\Club paradise\\table.cpp",
+              "RelativeToolTip": "table.cpp",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAUwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-15T21:28:42.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "person.cpp",
+              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\person.cpp",
+              "RelativeDocumentMoniker": "person.cpp",
+              "ToolTip": "E:\\CIS 164\\Club paradise\\person.cpp",
+              "RelativeToolTip": "person.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-15T21:28:41.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "deck.cpp",
+              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\deck.cpp",
+              "RelativeDocumentMoniker": "deck.cpp",
+              "ToolTip": "E:\\CIS 164\\Club paradise\\deck.cpp",
+              "RelativeToolTip": "deck.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-15T21:28:39.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "player.cpp",
               "DocumentMoniker": "E:\\CIS 164\\Club paradise\\player.cpp",
               "RelativeDocumentMoniker": "player.cpp",
               "ToolTip": "E:\\CIS 164\\Club paradise\\player.cpp",
               "RelativeToolTip": "player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-02T21:09:38.515Z",
+              "WhenOpened": "2025-10-15T20:52:14.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dealer.cpp",
+              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\dealer.cpp",
+              "RelativeDocumentMoniker": "dealer.cpp",
+              "ToolTip": "E:\\CIS 164\\Club paradise\\dealer.cpp",
+              "RelativeToolTip": "dealer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-15T20:25:15.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game_Driver.cpp",
+              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\Game_Driver.cpp",
+              "RelativeDocumentMoniker": "Game_Driver.cpp",
+              "ToolTip": "E:\\CIS 164\\Club paradise\\Game_Driver.cpp",
+              "RelativeToolTip": "Game_Driver.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-15T20:33:41.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main_tests.cpp",
+              "DocumentMoniker": "E:\\CIS 164\\Club paradise\\main_tests.cpp",
+              "RelativeDocumentMoniker": "main_tests.cpp",
+              "ToolTip": "E:\\CIS 164\\Club paradise\\main_tests.cpp",
+              "RelativeToolTip": "main_tests.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAMBAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-02T21:10:57.877Z",
               "EditorCaption": ""
             }
           ]

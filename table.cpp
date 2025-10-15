@@ -53,11 +53,9 @@ void Table::startRound() {
 }
 
 void Table::dealerPlay() {
-    // House rule: hit on 16, stand on 17
-    while (dealer.handValue() <= 16) {
-        dealOneToDealer();
-    }
+    dealer.playHand(deck);
 }
+
 
 void Table::settleBets() {
     const int dVal = dealer.handValue();
@@ -108,10 +106,10 @@ void Table::settleBets() {
     dealer.clearHand();
 }
 
-void Table::showDealerUpCard(){
-    cout << "Dealer shows: ";
-    cout << "[?, ?]" << endl;
+void Table::showDealerUpCard() {
+    dealer.showUpCard();
 }
+
 
 void Table::showDealerHand(bool revealAll) {
     cout << "Dealer hand: ";

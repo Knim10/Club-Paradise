@@ -12,7 +12,7 @@ void Person::cardDealt(int card) {
     hand.push_back(card);
 };
 //returns hand value
-int Person::handValue() {
+int Person::handValue() const {
     int value = 0;
     for (int i : hand) {
         value += i;
@@ -24,7 +24,7 @@ int Person::handValue() {
     return value;
 };
 //prints cards held as so [1, 2, 3, }
-void Person::showHand() {
+void Person::showHand() const {
     cout << "[";
     for (int i : hand) {
         cout << i << ", ";
