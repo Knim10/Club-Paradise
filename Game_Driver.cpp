@@ -30,7 +30,7 @@ using namespace std;
 
 /**
  * showHowToPlay()
- * Prints a one-page ìHow to Playî guide and waits for the user
+ * Prints a one-page ‚ÄúHow to Play‚Äù guide and waits for the user
  * to press Enter. Players can also request this at prompts by
  * entering 'h'.
  */
@@ -159,7 +159,7 @@ static int promptBetFor(Player& p, int maxBank) {
 
 /**
  * printHandInline(who)
- * Prints a Personís hand in one line with the current value.
+ * Prints a Person‚Äôs hand in one line with the current value.
  * (Relies on Person::showHand() formatting.)
  */
 static void printHandInline(const Person& who) {
@@ -223,11 +223,9 @@ static void playPlayerTurn(Player& p, Deck& deck) {
 }
 
 /**
- * pruneBrokePlayers(roster, table)
- * (Currently a no-op in terms of removal)
- * Rebuilds the Tableís player list from the current roster.
- * If you later decide to remove broke players, this is the place
- * to filter them out before re-adding to the Table.
+ * pruneBrokePlayers(roster, table, outPlayers)
+ * this will move the pointer from the roster vector to the outPlayers vector
+ * Rebuilds the Table‚Äôs player list from the current roster.
  */
 static void pruneBrokePlayers(vector<shared_ptr<Player>>& roster, Table& table, vector<shared_ptr<Player>>& outPlayers) {
     for (auto it = roster.begin(); it != roster.end(); ) {
@@ -243,7 +241,7 @@ static void pruneBrokePlayers(vector<shared_ptr<Player>>& roster, Table& table, 
     for (auto& up : roster) {
         survivors.push_back(up.get());
     }
-    // Rebuild the tableís internal vector from survivors
+    // Rebuild the table‚Äôs internal vector from survivors
     table.clearPlayers();
     for (auto* p : survivors) table.addPlayer(p);
 }
@@ -401,11 +399,13 @@ int main() {
         // --- Round summary and continuation prompt ---
         printRoundSummary(roster, roundNum);
         pruneBrokePlayers(roster, table, outPlayers);
+        // ---If all players are broke this will end the game ---
         if (roster.empty()) {
             keepPlaying = false;
         }else{
         keepPlaying = promptYesNo("Play another round?");
         }
+        // ---This is end of game output all players are put back into the roster vecotor for final stats ---
         if (!keepPlaying) {
             for (auto& i : outPlayers){
                 roster.push_back(i);
