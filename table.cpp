@@ -90,6 +90,7 @@ void Table::startRound() {
     // Step 2: Initial deal — first card to each player
     for (auto* p : players) {
         if (!p) continue;
+        if (p->getMoney() <= 0) continue;
         dealOneToPlayer(*p);
     }
     dealOneToDealer();  // Dealer’s first card
@@ -97,6 +98,7 @@ void Table::startRound() {
     // Step 3: Second card to each player
     for (auto* p : players) {
         if (!p) continue;
+        if (p->getMoney() <= 0) continue;
         dealOneToPlayer(*p);
     }
     dealOneToDealer();  // Dealer’s second card
