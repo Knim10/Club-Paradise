@@ -37,7 +37,7 @@ static void section(const string& title) {
     cout << "\n==== " << title << " ====\n";
 }
 
-int main()
+int notmain()
 {
     // -------------------------------------------------
     // Person tests

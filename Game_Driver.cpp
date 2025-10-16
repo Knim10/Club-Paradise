@@ -30,7 +30,7 @@ using namespace std;
 
 /**
  * showHowToPlay()
- * Prints a one-page ìHow to Playî guide and waits for the user
+ * Prints a one-page ‚ÄúHow to Play‚Äù guide and waits for the user
  * to press Enter. Players can also request this at prompts by
  * entering 'h'.
  */
@@ -159,7 +159,7 @@ static int promptBetFor(Player& p, int maxBank) {
 
 /**
  * printHandInline(who)
- * Prints a Personís hand in one line with the current value.
+ * Prints a Person‚Äôs hand in one line with the current value.
  * (Relies on Person::showHand() formatting.)
  */
 static void printHandInline(const Person& who) {
@@ -223,19 +223,25 @@ static void playPlayerTurn(Player& p, Deck& deck) {
 }
 
 /**
- * pruneBrokePlayers(roster, table)
- * (Currently a no-op in terms of removal)
- * Rebuilds the Tableís player list from the current roster.
- * If you later decide to remove broke players, this is the place
- * to filter them out before re-adding to the Table.
+ * pruneBrokePlayers(roster, table, outPlayers)
+ * this will move the pointer from the roster vector to the outPlayers vector
+ * Rebuilds the Table‚Äôs player list from the current roster.
  */
-static void pruneBrokePlayers(vector<unique_ptr<Player>>& roster, Table& table) {
+static void pruneBrokePlayers(vector<shared_ptr<Player>>& roster, Table& table, vector<shared_ptr<Player>>& outPlayers) {
+    for (auto it = roster.begin(); it != roster.end(); ) {
+        if ((*it)->getMoney() <= 0){
+            outPlayers.push_back(*it);
+            it = roster.erase(it);
+        } else {
+            it++;
+        }
+    }
     vector<Player*> survivors;
     survivors.reserve(roster.size());
     for (auto& up : roster) {
         survivors.push_back(up.get());
     }
-    // Rebuild the tableís internal vector from survivors
+    // Rebuild the table‚Äôs internal vector from survivors
     table.clearPlayers();
     for (auto* p : survivors) table.addPlayer(p);
 }
@@ -245,7 +251,7 @@ static void pruneBrokePlayers(vector<unique_ptr<Player>>& roster, Table& table) 
  * Prints a small two-column summary of player names and current
  * bankrolls after each round.
  */
-static void printRoundSummary(const vector<unique_ptr<Player>>& roster, int roundNum) {
+static void printRoundSummary(const vector<shared_ptr<Player>>& roster, int roundNum) {
     cout << "\n=== Round " << roundNum << " Summary ===\n";
     cout << left << setw(15) << "Player" << setw(10) << "Bank ($)" << "\n";
     cout << string(25, '-') << "\n";
@@ -272,7 +278,7 @@ static string signedMoney(int n) {
  * player, starting funds, ending funds, net delta, and
  * win/loss/push counts collected by Player.
  */
-static void printFinalReport(const vector<unique_ptr<Player>>& roster, int roundsPlayed) {
+static void printFinalReport(const vector<shared_ptr<Player>>& roster, int roundsPlayed) {
     cout << "\n=========================================\n";
     cout << "            FINAL GAME REPORT\n";
     cout << "=========================================\n";
@@ -337,7 +343,8 @@ int main() {
 
     // --- Player setup ---
     int nPlayers = promptInt("How many players (1-4)? ", 1, 4);
-    vector<unique_ptr<Player>> roster;
+    vector<shared_ptr<Player>> roster;
+    vector<shared_ptr<Player>> outPlayers;
     roster.reserve(nPlayers);
 
     for (int i = 0; i < nPlayers; ++i) {
@@ -364,6 +371,7 @@ int main() {
             if (cap <= 0) {
                 // Player is broke; keep them in roster but skip the round
                 cout << up->getName() << " is out of money and will be skipped.\n";
+                up->setBet(0);
                 continue;
             }
             int bet = promptBetFor(*up, cap);
@@ -390,18 +398,23 @@ int main() {
 
         // --- Round summary and continuation prompt ---
         printRoundSummary(roster, roundNum);
-
+        pruneBrokePlayers(roster, table, outPlayers);
+        // ---If all players are broke this will end the game ---
+        if (roster.empty()) {
+            keepPlaying = false;
+        }else{
         keepPlaying = promptYesNo("Play another round?");
+        }
+        // ---This is end of game output all players are put back into the roster vecotor for final stats ---
         if (!keepPlaying) {
+            for (auto& i : outPlayers){
+                roster.push_back(i);
+            }
             // On exit, show a final report with net results and W/L/P
             printFinalReport(roster, /* roundsPlayed = */ roundNum);
             break;
         }
         ++roundNum;
-
-        // If later you choose to remove broke players entirely from the table,
-        // call pruneBrokePlayers(roster, table) here.
-        // pruneBrokePlayers(roster, table);
     }
 
     cout << "\nThanks for playing!\n";
